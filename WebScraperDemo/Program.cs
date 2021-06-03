@@ -6,7 +6,7 @@ namespace WebScraperDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // Retrieves the name of hits in the first google search for "WebShop", into the console.
         {
             IWebDriver webDriver = new ChromeDriver();
             webDriver.Navigate().GoToUrl("http://www.google.com");
